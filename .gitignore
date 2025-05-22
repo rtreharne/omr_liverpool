@@ -172,3 +172,12 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# IMPORTANT
+*.pdf
+*.csv
+*.xlsx
+*.docx
+/keep_safe
+/student_pages
+/output
