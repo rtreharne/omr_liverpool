@@ -181,3 +181,11 @@ cython_debug/
 /keep_safe
 /student_pages
 /output
+*.zip
+*.png
+/testing
+/testing/annotated/*.png
+/blank
+/OMR*
+/screenshots
+/BIOS*
