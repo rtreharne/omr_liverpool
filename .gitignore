@@ -189,3 +189,4 @@ cython_debug/
 /OMR*
 /screenshots
 /BIOS*
+!STAPLE_user_guide.pdf
