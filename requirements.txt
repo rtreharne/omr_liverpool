@@ -21,6 +21,7 @@ pyparsing==3.2.3
 python-dateutil==2.9.0.post0
 pytz==2025.2
 reportlab==4.4.1
+scipy==1.15.3
 six==1.17.0
 tinycss2==1.4.0
 tqdm==4.67.1
