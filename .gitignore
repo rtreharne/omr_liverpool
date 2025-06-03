@@ -190,3 +190,4 @@ cython_debug/
 /screenshots
 /BIOS*
 !STAPLE_user_guide.pdf
+!staple.png
