@@ -39,7 +39,7 @@ def validate_image_areas(folder_path, z_thresh=2.0):
     outliers = np.abs(z_scores) > z_thresh
 
     log_filename = f"image_outliers_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
-    with open(log_filename, "w") as log_file:
+    with open(log_filename, "w", encoding="utf-8") as log_file:
         log_file.write(f"Image Area Validation Log - {datetime.now()}\n")
         log_file.write(f"Directory: {folder_path}\n")
         log_file.write(f"Mean Area: {mean_area:.2f}\n")
