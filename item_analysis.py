@@ -10,7 +10,6 @@ from reportlab.lib import colors
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.lib.utils import ImageReader
-import cairosvg
 import os
 import tempfile
 import datetime
@@ -242,8 +241,7 @@ def main():
 
     # Convert SVG university logo to PNG if needed
     uni_logo_png = "logo_converted.png"
-    if not os.path.exists(uni_logo_png):
-        cairosvg.svg2png(url="logo.svg", write_to=uni_logo_png)
+
 
     generate_pdf(
         output_csv, summary, item_df, histogram_path,
